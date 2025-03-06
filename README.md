@@ -23,7 +23,7 @@ The code in the ABAP package can be used as it is published in this repository, 
 - Extensibility for customer-specific adaptations and sample BAdI implementation
 
 ### **Sample Implementation**
-A sample implementation of this BAdI is provided in the repository **[`sample_badi_implementation.abap`](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/sfm-integration-enhancements-samples/sample%20badi%20implementation.abap)**. This file serves as a reference for customers looking to create their own implementations.
+A sample implementation of this BAdI is provided in the repository **[`sample_badi_implementation.abap`](sfm-integration-enhancements-samples/sample%20badi%20implementation.abap)**. This file serves as a reference for customers looking to create their own implementations.
 )
 
 ## Download and Installation
