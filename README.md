@@ -1,41 +1,102 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
+# SAP SFM Integration Accelerator
 
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+
+The SAP Sustainability Footprint Management (SFM) Integration Accelerator is an ABAP package designed to streamline the integration of SAP SFM with backend ECC systems or older S/4HANA systems. The package includes prebuilt integration content that allows for selection, extraction, and replication of relevant data into the cloud-based SFM solution via standard SFM push APIs.
+
+The code in the ABAP package can be used as it is published in this repository, or you can use it as a sample reference for your own implementation. However, if you require support, you must use it as it is and enhance it if needed via BAdI implementation.
 
 ## Requirements
 
+- SAP ERP ECC 6.0 EHP7 SP16 (or later)/EHP8 or S/4HANA 1909/2021.
+- Minimum SAP\_BASIS 740 (Package Level 0019 or higher).
+- Access to SAP Business Technology Platform (BTP) for creating SFM replication services.
+  - More details on [BTP configurations](https://help.sap.com/docs/sustainability-footprint-management/sap-sustainability-footprint-management-b3e39aed098c41a2b0d49db0caf80711/initial-setup).
+
+## Features
+
+- Preconfigured ABAP reports for data replication.
+- Compatibility with master data and transactional data.
+- Support for both initial and delta data loads as well as single entity reload.
+- Error handling and logging capabilities, including reprocessing failed payloads.
+- Extensibility for customer-specific adaptations and sample BAdI implementation
+
+### **Sample Implementation**
+A sample implementation of this BAdI is provided in the repository **[`sample_badi_implementation.abap`](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/sfm-integration-enhancements-samples/sample%20badi%20implementation.abap)**. This file serves as a reference for customers looking to create their own implementations.
+)
+
 ## Download and Installation
 
-## Known Issues
-<!-- You may simply state "No known issues. -->
+To install the SFM Integration Accelerator package:
 
-## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
+1. Upload the provided transport files using transaction **CG3Z** or any relevant function modules/tcodes in your system.
+2. Import transport requests in the specified sequence (see [installation steps](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/sfm-abap-technical-objects/readme.md) ).
+3. Perform the configuration steps described in the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+   - Ensure all prerequisites for initial setup on BTP account and subaccount are fulfilled (More details on [BTP configurations](https://help.sap.com/docs/sustainability-footprint-management/sap-sustainability-footprint-management-b3e39aed098c41a2b0d49db0caf80711/initial-setup) ).
+   - Configure RFC destinations (**SM59**) for HTTPS communication with the SFM API.
+   - Maintain service path prefixes (optional).
+   - Create and activate change pointers (optional).
+   - Add maximum limit on data replication (optional).
+   
+
+## Usage
+
+The integration package provides several reports for required data replication, including:
+
+### **Master Data**
+
+- Supplier data
+- Product data
+- Organizational Data (Company, Plant, Valuation Area, Controlling Area, Cost Center, Activity, Project, Production Document, Resource)
+- Configuration Data (Unit of Measure, Unit of Measure Dimension, Country, Region, Product Group, Product Type, Currency)
+
+### **Periodicity Master Data**
+
+- Period Variant
+- Fiscal Period
+- Ledger
+- Currency Conversion (Exchange Rate Data, Exchange Rate Factors, Exchange Rate Quotation, Exchange Rate Type)
+
+### **Transactional Data**
+
+- Goods receipts and returns
+- Goods movements for production, cost centers, and projects
+- Internal service confirmations
+- Opening stock
+
+For a complete list of reports and instructions on how to load the data, refer to the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+
+## BAdI Technical Documentation
+
+For extending data retrieval and mapping functionality, the **BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`** can be implemented. More details about this BAdI and its usage can be found in the **[BAdI Technical Documentation](https://github.tools.sap/I072578/SFMIntegrationAccelerator/tree/main/sfm-integration-enhancements-samples/badi-documentation)** and in the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+
+## Known Issues
+
+- Only English and Japanese languages are supported as of now.
 
 ## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+
+This project is maintained and updated exclusively by SAP employees. External contributions, such as pull requests, are not accepted. However, we encourage users to submit bug reports and feature requests via SAP Support.
+
+
+## How to Obtain Support
+
+If you encounter issues or have questions, you can submit a support ticket via SAP ONE Support Launchpad: [SAP ONE Support Launchpad](https://support.sap.com/en/index.html):
+
+- **Ticket Component:** SV-COE-VPT-PFM
+
+## Importance of Regular Updates for Integration Accelerator
+
+Due to the rapid evolution of SFM, it is highly recommended that customers update their Integration Accelerator package regularly. Regular updates ensure compatibility with the latest features and enhancements in SFM.
+
+**Note:** Support is only offered for the latest update.
+
+## Code of Conduct
+
+See [Code of Conduct](https://github.com/SAP-archive/node-rfc/blob/main/CODE_OF_CONDUCT.md)
 
 ## License
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+
+Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+

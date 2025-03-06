@@ -1,0 +1,41 @@
+# SAP SFM Integration Accelerator - Installation Guide
+
+## Fresh Installation of SFM Integration Package V2
+
+If you do **not** have an existing version of the SFM Integration Accelerator installed **and** you do **not** have any version of the RDP Integration Accelerator installed in your system, follow these steps:
+
+### **Step 1: Install Technical Objects**
+1. Install **SFM ABAP Technical Objects**: 
+   - **TR 901347.BP7** (This transport request includes all customizing objects).
+2. **Note:**
+   - If you are on a lower SAP SP level, you may encounter errors related to the `/UI2/CL_JSON` standard class.
+   - You have **two options** to resolve this:
+     1. Install SAP Note **2526405 - /UI2/CL_JSON Corrections** via [SAP for Me](https://me.sap.com/notes/2526405) to apply the necessary corrections.
+     2. If installing the SAP Note is not possible, you may **ignore** the errors in this transport request (TR) and proceed with the remaining TRs. In this case, the TRs in Step 2 become **mandatory**.
+
+### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
+- Install the following transport requests:
+  - **Fixes -> TR 910061.BP7**
+  - **Fixes -> TR 900101.BP7**
+
+### **Step 3: Additional Languages Installation**
+- **Japanese Language:**
+  - Install **SFM ABAP Technical Objects -> Additional languages -> Japanese -> TR 900310.BP7**
+
+## Upgrading from SFM Integration Accelerator V1 to V2
+
+If you already have **SFM Integration Accelerator V1** installed and want to upgrade to **V2**, follow these steps:
+
+### **Step 1: Install Delta Technical Objects**
+- Install **SFM ABAP Technical Objects**:
+  - **TR 901346.BP7** (This transport request includes delta customizing objects).
+
+---
+
+## Notes
+- Ensure all transport requests are imported **in the specified sequence**.
+- If you encounter issues, open a support ticket via **SAP ONE Support Launchpad**: [SAP ONE Support](https://support.sap.com/en/index.html) using Ticket Component: SV-COE-VPT-PFM.
+
+---
+© 2025 SAP SE or an SAP affiliate company. All rights reserved.
+
