@@ -92,10 +92,6 @@ Due to the rapid evolution of SFM, it is highly recommended that customers updat
 
 **Note:** Support is only offered for the latest update.
 
-## Code of Conduct
-
-See [Code of Conduct](https://github.com/SAP-samples/sap-sfm-integration-accelerator?tab=coc-ov-file#)
-
 ## License
 
 Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
