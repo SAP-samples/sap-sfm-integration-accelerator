@@ -79,7 +79,7 @@ SSL certificates and the TLS handshake process establish trust between the commu
 Access to the API is secured using authorization mechanisms based on the XSUAA (SAP Authorization and Trust Management) component, leveraging the OAuth 2.0 client credentials grant.
 XSUAA serves as the central identity provider on SAP BTP, managing authentication and authorization.
 
-Through the RDP service broker, customers create a service instance, allowing them to obtain an access token for replication.
+Through the SFM service broker, customers create a service instance, allowing them to obtain an access token for replication.
 
 ## Known Issues
 
