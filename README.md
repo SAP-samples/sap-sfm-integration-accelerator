@@ -31,8 +31,8 @@ A sample implementation of this BAdI is provided in the repository **[`sample_ba
 To install the SFM Integration Accelerator package:
 
 1. Upload the provided transport files using transaction **CG3Z** or any relevant function modules/tcodes in your system.
-2. Import transport requests in the specified sequence (see [installation steps](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/sfm-abap-technical-objects/readme.md) ).
-3. Perform the configuration steps described in the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+2. Import transport requests in the specified sequence (see [installation steps](sfm-abap-technical-objects/readme.md) ).
+3. Perform the configuration steps described in the [SFM Integration Accelerator Guide](Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
    - Ensure all prerequisites for initial setup on BTP account and subaccount are fulfilled (More details on [BTP configurations](https://help.sap.com/docs/sustainability-footprint-management/sap-sustainability-footprint-management-b3e39aed098c41a2b0d49db0caf80711/initial-setup) ).
    - Configure RFC destinations (**SM59**) for HTTPS communication with the SFM API.
    - Maintain service path prefixes (optional).
@@ -65,11 +65,11 @@ The integration package provides several reports for required data replication, 
 - Internal service confirmations
 - Opening stock
 
-For a complete list of reports and instructions on how to load the data, refer to the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+For a complete list of reports and instructions on how to load the data, refer to the [SFM Integration Accelerator Guide](Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
 
 ## BAdI Technical Documentation
 
-For extending data retrieval and mapping functionality, the **BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`** can be implemented. More details about this BAdI and its usage can be found in the **[BAdI Technical Documentation](https://github.tools.sap/I072578/SFMIntegrationAccelerator/tree/main/sfm-integration-enhancements-samples/badi-documentation)** and in the [SFM Integration Accelerator Guide](https://github.tools.sap/I072578/SFMIntegrationAccelerator/blob/main/Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
+For extending data retrieval and mapping functionality, the **BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`** can be implemented. More details about this BAdI and its usage can be found in the **[BAdI Technical Documentation](sfm-integration-enhancements-samples/badi-documentation)** and in the [SFM Integration Accelerator Guide](Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
 
 ## Known Issues
 
