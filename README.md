@@ -94,7 +94,7 @@ Due to the rapid evolution of SFM, it is highly recommended that customers updat
 
 ## Code of Conduct
 
-See [Code of Conduct](https://github.com/SAP-archive/node-rfc/blob/main/CODE_OF_CONDUCT.md)
+See [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## License
 
