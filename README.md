@@ -71,6 +71,16 @@ For a complete list of reports and instructions on how to load the data, refer t
 
 For extending data retrieval and mapping functionality, the **BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`** can be implemented. More details about this BAdI and its usage can be found in the **[BAdI Technical Documentation](sfm-integration-enhancements-samples/badi-documentation)** and in the [SFM Integration Accelerator Guide](Documentation/SAP_VP_SFM_Integration%20Accelerator_ConfigGuide_v2_0.pdf).
 
+## Security
+
+All replication endpoints are secured using TLS (HTTPS) to ensure encryption of customer data during transmission.
+SSL certificates and the TLS handshake process establish trust between the communicating systems.
+
+Access to the API is secured using authorization mechanisms based on the XSUAA (SAP Authorization and Trust Management) component, leveraging the OAuth 2.0 client credentials grant.
+XSUAA serves as the central identity provider on SAP BTP, managing authentication and authorization.
+
+Through the RDP service broker, customers create a service instance, allowing them to obtain an access token for replication.
+
 ## Known Issues
 
 - Only English and Japanese languages are supported as of now.
