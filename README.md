@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sap-sfm-integration-accelerator)](https://api.reuse.software/info/github.com/SAP-samples/sap-sfm-integration-accelerator)
+
 # SAP SFM Integration Accelerator
 
 
