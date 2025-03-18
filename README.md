@@ -30,7 +30,7 @@ A sample implementation of this BAdI is provided in the repository **[`sample_ba
 
 ## Download and Installation
 
-To install the SFM Integration Accelerator package:
+To install/update the SFM Integration Accelerator package:
 
 1. Upload the provided transport files using transaction **CG3Z** or any relevant function modules/tcodes in your system.
 2. Import transport requests in the specified sequence (see [installation steps](sfm-abap-technical-objects/readme.md) ).
