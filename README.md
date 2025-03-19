@@ -98,11 +98,11 @@ If you encounter issues or have questions, you can submit a support ticket via S
 
 - **Ticket Component:** SV-COE-VPT-PFM
 
+  **Important Note:**: Support on any standard code issues on integration accelerator is only offered for the latest code available in this repository. Customers must ensure that the latest transport requests (TRs) are installed on their system before reporting any issues. If an issue persists after updating to the latest version/latest TR available, a support ticket should be raised. Support is not provided for older versions where the latest updates have not been applied.
+
 ## Importance of Regular Updates for Integration Accelerator
 
 Due to the rapid evolution of SFM, it is highly recommended that customers update their Integration Accelerator package regularly. Regular updates ensure compatibility with the latest features and enhancements in SFM.
-
-**Note:** Support is only offered for the latest update.
 
 ## License
 
