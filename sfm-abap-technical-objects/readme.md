@@ -6,7 +6,7 @@ If you do **not** have an existing version of the SFM Integration Accelerator in
 
 ### **Step 1: Install Technical Objects**
 1. Install **SFM ABAP Technical Objects**: 
-   - **TR 901347.BP7** (This transport request includes all customizing objects).
+   - **TR 901356.BP7** (This transport request includes all customizing objects).
 2. **Note:**
    - If you are on a lower SAP SP level, you may encounter errors related to the `/UI2/CL_JSON` standard class.
    - You have **two options** to resolve this:
@@ -28,7 +28,7 @@ If you already have **SFM Integration Accelerator V1** installed and want to upg
 
 ### **Step 1: Install Delta Technical Objects**
 - Install **SFM ABAP Technical Objects**:
-  - **TR 901346.BP7** (This transport request includes delta customizing objects).
+  - **TR 901357.BP7** (This transport request includes delta customizing objects).
 
 ---
 
