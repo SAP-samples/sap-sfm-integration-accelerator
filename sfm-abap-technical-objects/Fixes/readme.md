@@ -25,7 +25,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Fix: TR 901363.BP7 - Custom Data Retrieval in BAdI**
 #### **Issue Addressed**
-- **This improvement enhances flexibility, especially for scenarios where the standard retrieval does not align with customer-specific requirements. It allows customers to completely skip the standard data retrieval process and execute only custom data retrieval logic implemented in provided BAdI.**
+- This improvement enhances flexibility, especially for scenarios where the standard retrieval does not align with customer-specific requirements. It allows customers to completely skip the standard data retrieval process and execute only custom data retrieval logic implemented in provided BAdI
  
 ---
 ### **Installation Instructions for fixes**
