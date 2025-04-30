@@ -26,6 +26,12 @@ This document provides details on the fixes available in the **Fixes** folder. A
 ### **Fix: TR 901363.BP7 - Custom Data Retrieval in BAdI**
 #### **Issue Addressed**
 - This improvement enhances flexibility, especially for scenarios where the standard retrieval does not align with customer-specific requirements. It allows customers to completely skip the standard data retrieval process and execute only custom data retrieval logic implemented in provided BAdI
+
+### **Fix: TR 901366.BP7 - Negative values Handling & Logging Enhancements**
+#### **Issue Addressed**
+- Fixed incorrect processing of **negative values** in following transactions: Goods Issue for Production, Goods Issue for Customer, Goods Issue Without Reference, Goods Return to Supplier
+- Adds Correlation ID to the log output for failed replications. This identifier allows easier investigation and tracing of failed payloads on the SFM side.
+
  
 ---
 ### **Installation Instructions for fixes**
