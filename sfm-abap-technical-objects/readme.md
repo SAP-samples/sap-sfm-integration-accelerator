@@ -18,10 +18,6 @@ If you do **not** have an existing version of the SFM Integration Accelerator in
   - **Fixes -> TR 910061.BP7**
   - **Fixes -> TR 900101.BP7**
 
-### **Step 3: Additional Languages Installation**
-- **Japanese Language:**
-  - Install **SFM ABAP Technical Objects -> Additional languages -> Japanese -> TR 900310.BP7**
-
 ## Upgrading from SFM Integration Accelerator V1 to V2
 
 If you already have **SFM Integration Accelerator V1** installed and want to upgrade to **V2**, follow these steps:
@@ -44,6 +40,19 @@ Install all available fixes/transport requests from [Fixes](Fixes) folder in the
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes and ensure they are installed.
 
+---
+
+## Additional Languages Installation (Optional, Can Be Installed After Completing Either Upgrade or Fresh Installation)
+
+* **Japanese Language:**
+
+  * Install **SFM ABAP Technical Objects -> Additional languages -> Japanese -> TR 900310.BP7**
+
+* **German Language:**
+
+  * Install **SFM ABAP Technical Objects -> Additional languages -> German -> TR 901371.BP7**
+
+---
 
 
 ## Notes
