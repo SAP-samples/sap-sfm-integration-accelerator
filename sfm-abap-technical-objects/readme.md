@@ -15,8 +15,8 @@ If you do **not** have an existing version of the SFM Integration Accelerator in
 
 ### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
 - Install the following transport requests:
-  - **Fixes -> TR 910061.BP7**
-  - **Fixes -> TR 900101.BP7**
+  - **Fixes -> TR 910061.EC6**
+  - **Fixes -> TR 900101.PCF**
 
 ## Upgrading from SFM Integration Accelerator V1 to V2
 

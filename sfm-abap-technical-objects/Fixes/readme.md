@@ -4,7 +4,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ## **Available Fixes**
 
-### **Fix: TR 900101.PCF and TR 910061.PCF - custom code for handling JSON objects**
+### **Fix: TR 900101.PCF and TR 910061.EC6 - custom code for handling JSON objects**
 #### **Issue Addressed**
 - Resolved an issue where **/UI2/CL_JSON** standard class is not available or is an old version in the system. 
 - this is relevant ONLY for NW version 7.4 SP15 or lower
