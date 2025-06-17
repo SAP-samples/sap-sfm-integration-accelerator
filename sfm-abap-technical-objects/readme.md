@@ -15,8 +15,9 @@ If you do **not** have an existing version of the SFM Integration Accelerator in
 
 ### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
 - Install the following transport requests:
-  - **Fixes -> TR 910061.EC6**
-  - **Fixes -> TR 900101.PCF**
+  - **Fixes -> TR 901375.BP7**
+     *(Replaces older TRs 910061.EC6 and 900101.PCF)*
+  
 
 ## Upgrading from SFM Integration Accelerator V1 to V2
 
@@ -26,6 +27,9 @@ If you already have **SFM Integration Accelerator V1** installed and want to upg
 - Install **SFM ABAP Technical Objects**:
   - **TR 901357.BP7** (This transport request includes delta customizing objects).
 
+### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
+- Install the following transport requests:
+  - **Fixes -> TR 901375.BP7**
 ---
 ### Apply Fixes (Mandatory for All Installations)
 
