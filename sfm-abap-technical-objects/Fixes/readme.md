@@ -39,12 +39,12 @@ This document provides details on the fixes available in the **Fixes** folder. A
       ### ✨ Features added
       
 	* New Entities Added to Support Transportation Management in SFM:
-		- Business Partner (BP) Entity
+		- Business Partner (BP) Entity including address and gelocation data 
 		- Custom Temperature Condition Entity
 		- Temperature Condition Entity (for handling the mapping to SFM temperature codes)
 	* Enhancements to Existing Entities:
 		- Product Entity extended with Custom Temperature Condition ID
-		- Plant Entity extended with Address Details
+		- Plant Entity extended with Address Details and geolocation data
 
 	
       ### 📘 Documentation
