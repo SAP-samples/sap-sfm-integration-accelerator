@@ -35,7 +35,7 @@ If you already have **SFM Integration Accelerator V1** installed and want to upg
 
 Regardless of whether you are performing a fresh installation or an update, it is essential to install any available fixes to ensure stability and compatibility.
 Details on addressed issues or features can be verified [here](Fixes).  
-Install all available fixes/transport requests from [Fixes](Fixes) folder in the specified sequence below:
+Install all available fixes and updates/transport requests from [Fixes](Fixes) folder in the specified sequence below:
 
 1. **Fixes -> TR 901361.BP7**
 2. **Fixes -> TR 901363.BP7**
@@ -45,7 +45,7 @@ Install all available fixes/transport requests from [Fixes](Fixes) folder in the
 
 
 
-Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes and ensure they are installed.
+Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 
 ---
 
