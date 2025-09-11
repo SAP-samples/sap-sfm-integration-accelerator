@@ -49,7 +49,9 @@ The integration package provides several reports for required data replication, 
 ### **Master Data**
 
 - Supplier data
+- Business Partner 
 - Product data
+- Custom Temperature Conditions
 - Organizational Data (Company, Plant, Valuation Area, Controlling Area, Cost Center, Activity, Project, Production Document, Resource)
 - Configuration Data (Unit of Measure, Unit of Measure Dimension, Country, Region, Product Group, Product Type, Currency)
 

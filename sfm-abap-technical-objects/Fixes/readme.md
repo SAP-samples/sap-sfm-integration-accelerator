@@ -32,6 +32,25 @@ This document provides details on the fixes available in the **Fixes** folder. A
 - Fixed incorrect processing of **negative values** in following transactions: Goods Issue for Production, Goods Issue for Customer, Goods Issue Without Reference, Goods Return to Supplier
 - Adds Correlation ID to the log output for failed replications. This identifier allows easier investigation and tracing of failed payloads on the SFM side.
 
+### **Update: V2.1 – September 11th 2025**: 
+
+      ### **TR 901392.BP7** 
+
+      ### ✨ Features added
+      
+	* New Entities Added to Support Transportation Management in SFM:
+		- Business Partner (BP) Entity
+		- Custom Temperature Condition Entity
+		- Temperature Condition Entity (for handling the mapping to SFM temperature codes)
+	* Enhancements to Existing Entities:
+		- Product Entity extended with Custom Temperature Condition ID
+		- Plant Entity extended with Address Details
+
+	
+      ### 📘 Documentation
+      
+      * New version for User guide has been updated with details on the features introduced
+
  
 ---
 ### **Installation Instructions for fixes**
