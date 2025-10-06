@@ -43,7 +43,7 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 4. **Update to Version 2.1** (Details on changes introduced in V2.1 are available in the [Fixes](Fixes) folder)<br>
    4.1 **TR 901392.BP7** – General update.<br>
 
-
+5. **Fixes -> TR 901396.BP7**
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 
