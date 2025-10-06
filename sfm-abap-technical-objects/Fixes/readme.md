@@ -55,9 +55,8 @@ This document provides details on the fixes available in the **Fixes** folder. A
 #### **Issue Addressed**
 - Fixed the outdated HTTP protocol version used when calling SFM APIs during data replication.
 - The protocol version is now taken from the RFC connection configuration: Special Option → HTTP Settings.
-
  ❗**Users needs to ensure that the HTTP version for RFC connections used to call the SFM API is set to HTTP 1.1.**
-- 
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:
