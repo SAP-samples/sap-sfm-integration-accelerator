@@ -44,6 +44,12 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
    4.1 **TR 901392.BP7** – General update.<br>
 
 5. **Fixes -> TR 901396.BP7**
+	**Note:**
+   	- If you are on a lower SAP SP level, you may encounter errors related to the `/UI2/CL_JSON` standard class.
+   	In this case, install the following transport requests:
+	Fixes -> TR 901375.BP7 (ONLY for NW version 7.4 SP15 or lower)
+
+6. **Fixes -> TR 901402.BP7 ** 
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 
