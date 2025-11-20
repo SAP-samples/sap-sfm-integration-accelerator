@@ -62,6 +62,13 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
  ❗**Users needs to ensure that the HTTP version for RFC connections used to call the SFM API is set to HTTP 1.1.**
 
+### **Fix: TR 901413.BP7 - HTTP 400 Header Error & Missing Material Document Transactions**
+#### **Issue Addressed**
+- Resolved an issue where data replication failed with **HTTP Code 400 – incorrect header check**.  
+  If you encounter this error during replication, it is mandatory to import this transport request.
+
+- Fixed an issue where in some specific cases, not all business transactions based on Material Documents were transmitted to SFM due to incorrect handling in function module `/VPCOE/STORE_MATERIAL_DATA`.  
+ 
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:
