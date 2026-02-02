@@ -69,14 +69,9 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 - Fixed an issue where in some specific cases, not all business transactions based on Material Documents were transmitted to SFM due to incorrect handling in function module `/VPCOE/STORE_MATERIAL_DATA`.  
 
-### Fix: TR 901418.BP7 – Supplier Address Fallback, German Translation, and Material Replication Correction
+### Fix: TR 901418.BP7 – German Translation, and Material Replication Correction
 
 #### Issue Addressed
-- **Supplier Address Fallback Logic:**  
-  Enhanced address retrieval to support ECC systems (with or without CVI).  
-  Fallback introduced: if BP-based address lookup returns no data, address is now taken directly from LFA1/KNA1 (LAND1, REGIO, ORT01).  
-  Ensures correct supplier/customer address replication across ECC and S/4HANA.
-
 - **Missing German Translations:**  
   Added missing German-language text elements.
 
