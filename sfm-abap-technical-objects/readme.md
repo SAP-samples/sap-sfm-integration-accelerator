@@ -53,7 +53,7 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 
 7. **Fixes -> TR 901413.BP7**
 
-8. **Fixes -> TR 901418.BP7 **
+8. **Fixes -> TR 901418.BP7**
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 
