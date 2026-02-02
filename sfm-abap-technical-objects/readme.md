@@ -49,9 +49,9 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
    	In this case, install the following transport requests:
 	Fixes -> TR 901375.BP7 (ONLY for NW version 7.4 SP15 or lower)
 
-6. **Fixes -> TR 901402.BP7 ** 
+6. **Fixes -> TR 901402.BP7** 
 
-7. **Fixes -> TR 901413.BP7 **
+7. **Fixes -> TR 901413.BP7**
 
 8. **Fixes -> TR 901418.BP7 **
 
