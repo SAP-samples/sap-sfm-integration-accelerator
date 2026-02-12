@@ -55,7 +55,11 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 
 8. **Fixes -> TR 901418.BP7**
 
+9. **Update to Version 2.2** (Details on changes introduced in V2.2 are available in the [Fixes](Fixes) folder)<br>
+   9.1 **TR 901419.BP7** – General update.<br>
+
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
+
 
 
 ---

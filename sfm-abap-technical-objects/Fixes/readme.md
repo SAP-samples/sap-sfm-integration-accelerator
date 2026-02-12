@@ -79,6 +79,41 @@ This document provides details on the fixes available in the **Fixes** folder. A
   Corrected logic so material replication is processed independently for each plant.  
   Selection structure (*LS_SEL_OPT-PROD*) is now cleared after each plant iteration to prevent materials from previous plants being incorrectly reused.
 
+### **Update: V2.2 – February 12th 2026**: 
+
+      ### **TR 901419.BP7** 
+
+      ### ✨ Features added
+      
+	
+	# 1. Customer-Level Granularity for Periodic Data
+
+		The following goods movement entities now support optional **Customer-level aggregation**:
+
+		- Goods Issue to Customer  
+		- Customer Return  
+
+	# 2. Customer Support in Business Partner Replication
+
+		The Business Partner report now supports replication of **Customers (Role: FLCU01)**.
+
+		- Customer replication is handled exclusively via the Business Partner report.
+		- No separate Customer report or API was introduced.
+		- No Customer ID selection filter was added.
+
+	# 3. Address Retrieval Enhancement for Supplier and Customer entities (CVI & Non-CVI Support)
+
+		Introduced fallback logic to ensure address compatibility across:
+
+		- ECC with CVI  
+		- ECC without CVI or partially rolled out  
+		- lower S/4HANA  versions
+
+	
+      ### 📘 Documentation
+      
+      * New version for User guide has been updated with details on the features introduced
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:
