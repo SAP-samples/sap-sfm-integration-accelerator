@@ -122,39 +122,39 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	# 1. Goods Return to Supplier – "Amount" Attribute with its "currencyCode"
 
-	- Added support for **amount** attribute with its currency in Goods Return to Supplier replication.
+	  - Added support for **amount** attribute with its currency in Goods Return to Supplier replication.
 		
 	# 2. Carbon & Moisture Content Support
 
-	- Enhanced periodic data replication to support:
+	  - Enhanced periodic data replication to support:
  	     - `moistureContent`
  	     - `carbonContentPerUnit`
-	- Applicable for:
-  	  - Goods Issue for Production  
- 	  - Goods Receipt from Production  
+	  - Applicable for:
+  	    - Goods Issue for Production  
+ 	    - Goods Receipt from Production  
 
-	- Extended `/VPCOE` structures to allow customer-specific mapping via BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`.
-	- Updated sample BAdI implementation accordingly.
+	  - Extended `/VPCOE` structures to allow customer-specific mapping via BAdI `/VPCOE/ADJUST_DATA_RETRIEVAL`.
+      - Updated sample BAdI implementation accordingly.
 	
 	# 3. Performance Improvements for Periodic Data Replication
 
-	- Resolved memory overflow issues during high-volume data processing (e.g. Goods Issue to Production).
-	- Optimized internal table handling to prevent excessive memory consumption.
+	  - Resolved memory overflow issues during high-volume data processing (e.g. Goods Issue to Production).
+	  - Optimized internal table handling to prevent excessive memory consumption.
 		
 	# 4. Yearly Replication & Aggregation Fix
 
-	- Fixed issues in yearly aggregation logic for transactional data.
-	- Ensures correct aggregation results across full-year scenarios.
+	  - Fixed issues in yearly aggregation logic for transactional data.
+	  - Ensures correct aggregation results across full-year scenarios.
 
 	# 5. Fiscal Year Interval Correction
 
-	- Fixed issue for fiscal year variants (e.g. W4 – April to March).
-	- Corrected handling of date intervals spanning across calendar years.
+	  - Fixed issue for fiscal year variants (e.g. W4 – April to March).
+	  - Corrected handling of date intervals spanning across calendar years.
 
 	# 6. Commodity Code Validity Fix
 
-	- Corrected selection logic for commodity code validity dates.
-	- Ensures correct start/end dates are transferred to SFM.
+	  - Corrected selection logic for commodity code validity dates.
+	  - Ensures correct start/end dates are transferred to SFM.
 
 ---
 ### **Installation Instructions for fixes**
