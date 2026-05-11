@@ -78,7 +78,6 @@ Note: Additional fixes may be provided in the future. Customers should always ch
 
 ---
 
-
 ## Notes
 - Ensure all transport requests are imported **in the specified sequence**.
 - If you encounter issues, open a support ticket via **SAP ONE Support Launchpad**: [SAP ONE Support](https://support.sap.com/en/index.html) using Ticket Component: SV-COE-VPT-PFM.
