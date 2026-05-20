@@ -156,7 +156,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	  - Corrected selection logic for commodity code validity dates.
 	  - Ensures correct start/end dates are transferred to SFM.
 
-### **Fix: TR 901469.BP7 – Fiscal Period Correction & Inventory Replication Stability**
+### **Fix V2.3.1: TR 901469.BP7 – Fiscal Period Correction & Inventory Replication Stability**
 
 #### **Issue Addressed**
 
