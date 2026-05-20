@@ -58,14 +58,12 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 9. **Update to Version 2.2** (Details on changes introduced in V2.2 are available in the [Fixes](Fixes) folder)<br>
    9.1 **TR 901419.BP7** – General update.<br>
 
-Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
-
 10. **Update to Version 2.3** (Details on changes introduced in V2.3 are available in the [Fixes](Fixes) folder)<br>
    10.1 **TR 901457.BP7** – General update.<br>
 
-11. **Fixes -> TR 901469.BP7**	
+11. **Fixes V2.3.1 -> TR 901469.BP7**	
 
-
+Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 ---
 
 ## Additional Languages Installation (Optional, Can Be Installed After Completing Either Upgrade or Fresh Installation)
