@@ -156,6 +156,19 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	  - Corrected selection logic for commodity code validity dates.
 	  - Ensures correct start/end dates are transferred to SFM.
 
+### Fix: TR 901469.BP7 – fiscal period correction and performance improvement for inventory replication 
+
+#### Issue Addressed
+	 1. **Fiscal vs Calendar Period Handling Correction**
+
+	- Fixed an issue in periodic data replication where fiscal periods and calendar periods were not handled 	correctly in certain scenarios.
+	- Improves period validation and ensures transactional data is selected consistently for fiscal year variants 	that differ from calendar periods.
+
+	2. **Background Processing Stability Improvement**
+
+	- Improved reliability of temporary data persistence during long-running background jobs.	- 
+	- Resolves scenarios where replication jobs completed without transferring expected data (in background 	execution mode ).
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:
