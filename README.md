@@ -14,7 +14,7 @@ The code in the ABAP package can be used as it is published in this repository, 
 - SAP ERP ECC 6.0 EHP7 SP16 (or later)/EHP8 or S/4HANA 1909/2021.
 - Minimum SAP\_BASIS 740 (Package Level 0019 or higher).
 - Access to SAP Business Technology Platform (BTP) for creating SFM replication services.
-  - More details on [BTP configurations](https://help.sap.com/docs/sustainability-footprint-management/sap-sustainability-footprint-management-b3e39aed098c41a2b0d49db0caf80711/initial-setup).
+  - More details on [BTP configurations](https://help.sap.com/docs/sustainability-footprint-management/sap-sustainability-footprint-management-b3e39aed098c41a2b0d49db0caf80711/initial-setup) .
 
 ## Features
 
