@@ -158,57 +158,57 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V2.3.1 – May 2026**
 
-### **TR 901469.BP7**
+      ### **TR 901469.BP7**
 
-### 🛠 Fixes added
+      ### 🛠 Fixes added
 
-# 1. Fiscal vs Calendar Period Handling Correction
+      # 1. Fiscal vs Calendar Period Handling Correction
 
-  - Fixed an issue in periodic data replication where fiscal periods and calendar periods were not handled correctly in certain scenarios.
-  - Improved period validation for fiscal year variants that differ from calendar periods.
+        - Fixed an issue in periodic data replication where fiscal periods and calendar periods were not handled correctly in certain scenarios.
+        - Improved period validation for fiscal year variants that differ from calendar periods.
 
-# 2. Background Processing Stability Improvement
+      # 2. Background Processing Stability Improvement
 
-  - Improved reliability of temporary data persistence during long-running background jobs.
-  - Resolved scenarios where replication jobs completed without transferring the expected data in background execution mode.
+        - Improved reliability of temporary data persistence during long-running background jobs.
+        - Resolved scenarios where replication jobs completed without transferring the expected data in background execution mode.
 
 
 ### **Update: V2.3.2 – June 30th 2026**
 
-### **TR 901482.BP7**
+      ### **TR 901482.BP7**
 
-### ✨ Features added
+      ### ✨ Features added
 
-# 1.Leading Zeros Conversion Control for Key Identifier Fields
+      # 1. Leading Zeros Conversion Control for Key Identifier Fields
 
-  - Added support to add or remove leading zeros for key identifier fields in Master Data and Transactional Data reports.
+        - Added support to add or remove leading zeros for key identifier fields in Master Data and Transactional Data reports.
 
-  - Supported entities:
-    - Product
-    - Supplier
-    - Production Document
-    - Project
-    - Cost Center
-    - Business Partner
+        - Supported entities:
+          - Product
+          - Supplier
+          - Production Document
+          - Project
+          - Cost Center
+          - Business Partner
 
-# 2. New Configuration for Leading Zeros Handling
+      # 2. New Configuration for Leading Zeros Handling
 
-  - A new **Leading Zeros** field has been introduced in the view cluster, allowing users to control conversion behavior per entity.
+        - A new **Leading Zeros** field has been introduced in the view cluster, allowing users to control conversion behavior per entity.
 
-  - Available options:
-    - **Keep as Is** – Replicate values without any conversion
-    - **Add Leading Zeros** – Pad identifiers with leading zeros according to standard formatting
-    - **Remove Leading Zeros** – Strip leading zeros before replication
+        - Available options:
+          - **Keep as Is** – Replicate values without any conversion
+          - **Add Leading Zeros** – Pad identifiers with leading zeros according to standard formatting
+          - **Remove Leading Zeros** – Strip leading zeros before replication
 
-# Impact
+      # 3. Impact
 
-  - Improves flexibility for customer-specific identifier formats.
-  - Reduces the need for custom enhancement implementations for zero-padding logic.
-  - Ensures better consistency between backend ERP data and SFM replicated data.
+        - Improves flexibility for customer-specific identifier formats.
+        - Reduces the need for custom enhancement implementations for zero-padding logic.
+        - Ensures better consistency between backend ERP data and SFM replicated data.
 
-### 📘 Documentation
+      ### 📘 Documentation
 
-  - A new version of the User Guide has been updated with details about the newly introduced features.
+        - A new version of the User Guide has been updated with details about the newly introduced features.
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:
