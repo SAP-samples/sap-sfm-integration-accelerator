@@ -168,7 +168,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
   - Improved reliability of temporary data persistence during long-running background jobs.
   - Resolved scenarios where replication jobs completed without transferring expected data in background execution mode.
 
-### **Update V2.3.2: June 30th 2026 
+### **Update V2.3.2: June 30th 2026** 
 	### **TR 901482.BP7**
 
 	### ✨ Features added
