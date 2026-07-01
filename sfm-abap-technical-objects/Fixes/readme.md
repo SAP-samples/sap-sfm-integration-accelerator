@@ -168,6 +168,38 @@ This document provides details on the fixes available in the **Fixes** folder. A
   - Improved reliability of temporary data persistence during long-running background jobs.
   - Resolved scenarios where replication jobs completed without transferring expected data in background execution mode.
 
+### **Update V2.3.2: June 30th 2026 
+	### **TR 901482.BP7**
+
+	### ✨ Features added
+  
+* Added the ability to add or remove leading zeros for key identifier fields in Master Data and Transactional Data reports.
+  Supported entities:
+	- Product
+	- Supplier
+	- Production Document
+	- Project
+	- Cost Center
+	- Business Partner
+  
+New Configuration added:
+  A new Leading Zeros field has been introduced in the view cluster, allowing users to control the conversion behavior per entity.
+This setting allows users to control the conversion behavior individually for each supported entity.
+
+Available options:
+- **Keep as Is** – Replicate values without any conversion
+- **Add Leading Zeros** – Pad identifiers with leading zeros according to standard formatting
+- **Remove Leading Zeros** – Strip leading zeros before replication
+
+### Impact
+
+- Improves flexibility for customer-specific identifier formats
+- Reduces the need for custom enhancement implementations for zero-padding logic
+- Ensures better consistency between backend ERP data and SFM replicated data
+
+  ### 📘 Documentation
+  
+  * New version for User guide has been updated with details on the features introduced
 
 ---
 ### **Installation Instructions for fixes**

@@ -61,7 +61,9 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 10. **Update to Version 2.3** (Details on changes introduced in V2.3 are available in the [Fixes](Fixes) folder)<br>
    10.1 **TR 901457.BP7** – General update.<br>
 
-11. **Fixes V2.3.1 -> TR 901469.BP7**	
+11. **Fixes V2.3.1 -> TR 901469.BP7**
+
+12. **Updates V2.3.2 -> TR 901482.BP7**	(Configurable leading zeros conversion for key identifier fields in supported entities)
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 ---
