@@ -209,6 +209,20 @@ This document provides details on the fixes available in the **Fixes** folder. A
       ### 📘 Documentation
 
         - A new version of the User Guide has been updated with details about the newly introduced features.
+
+### **Update: V2.3.3 – October 15th 2026**
+
+      ### **TR 901487.BP7**
+
+      ### ✨ Features added
+	
+	# 1.New configurations added for maintaining subcontractor-related goods movement types, including handling logic for the corresponding documents.
+
+	# 2.Refactored JSON serialization for SFM payloads: replaced serialize_json with TRANSFORMATIONS across the board. No functional impact for users; this is a technical groundwork change in preparation for future SDF API adjustments.	
+	
+	### 📘 Documentation
+
+        - A new version of the User Guide has been updated with details about the newly introduced features.
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes:

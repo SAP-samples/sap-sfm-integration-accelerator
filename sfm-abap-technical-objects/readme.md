@@ -64,6 +64,8 @@ Install all available fixes and updates/transport requests from [Fixes](Fixes) f
 11. **Fixes V2.3.1 -> TR 901469.BP7**
 
 12. **Updates V2.3.2 -> TR 901482.BP7**	(Configurable leading zeros conversion for key identifier fields in supported entities)
+13. **Updates V2.3.3 -> TR 901487.BP7** (Added customizing parameters for subcontractor-related goods movement types)
+
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes/updates and ensure they are installed.
 ---
